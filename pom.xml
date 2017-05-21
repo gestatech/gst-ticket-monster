@@ -9,7 +9,7 @@
     <modules>
         <module>ear</module>
         <module>eis</module>
-        <module>business</module>
         <module>web</module>
+        <module>ejb</module>
     </modules>
 </project>

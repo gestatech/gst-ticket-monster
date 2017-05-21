@@ -43,7 +43,7 @@
     <dependencies>
         <dependency>
             <groupId>be.gestatech</groupId>
-            <artifactId>business</artifactId>
+            <artifactId>ejb</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <type>ejb</type>
         </dependency>
