@@ -7,7 +7,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     
-    <name>gst-ticket-monster</name>
+    <name>${project.artifactId}</name>
     
     <properties>
         <buildhelper.plugin.version>1.8</buildhelper.plugin.version>
@@ -28,13 +28,13 @@
             </dependency>
             <dependency>
                 <groupId>be.gestatech</groupId>
-                <artifactId>ejb</artifactId>
+                <artifactId>gst-ticket-monster-ejb</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
                 <type>ejb</type>
             </dependency>
             <dependency>
                 <groupId>be.gestatech</groupId>
-                <artifactId>web</artifactId>
+                <artifactId>gst-ticket-monster-web</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
                 <type>war</type>
             </dependency>
@@ -47,6 +47,7 @@
     </dependencyManagement>
     
     <build>
+        <finalName>${project.artifactId}</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -106,9 +107,9 @@
     </build>
     
     <modules>
-        <module>ear</module>
-        <module>eis</module>
-        <module>web</module>
-        <module>ejb</module>
+        <module>ticket-monster-ear</module>
+        <module>ticket-monster-eis</module>
+        <module>ticket-monster-web</module>
+        <module>ticket-monster-ejb</module>
     </modules>
 </project>

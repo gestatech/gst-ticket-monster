@@ -4,3 +4,8 @@
 /presentation/target/
 /eis/target/
 /ejb/target/
+/ticket-monster-web/target/
+/ticket-monster-ejb/target/
+/ticket-monster-eis/target/
+/ticket-monster-ear/target/
+/ticket-monster-ejb/ticket-monster-ejb-api/target/

@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>be.gestatech</groupId>
-    <artifactId>ear</artifactId>
+    <artifactId>ticket-monster-ear</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>ear</packaging>
 
